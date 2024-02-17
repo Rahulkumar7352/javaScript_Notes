@@ -10,7 +10,7 @@ let isLoggedIn=false;
 
 // data type
 // primitive data type
-//int
+//number => 2 to power 53
 //big int
 // string => ""
 // boolean => true/false;
