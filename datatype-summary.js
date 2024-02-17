@@ -66,11 +66,28 @@ let myobj={
 const myFunction=function(){
     console.log("hello");
 }
-console.log(typeof bigNumber)
-console.log(typeof myobj)
+// console.log(typeof bigNumber)
+// console.log(typeof myobj)
+
+//++++++++++++++++++++++++++++ Memory allocation
 
 
+// stack(Primitive) Memory and  Heap (Non-Primitive)
+// when ever stack memory use that time we get copy
+//but when ever  we use Heap memory that time we get reference of original value
 
-
+let myyoutubename="rahul"
+let anotherYoutubename=myyoutubename;
+anotherYoutubename="chaiandcode"
+ let userone={
+    email:"abc@gmail.com",
+    upi:"89fhhvfhn"
+ }
+ let userTwo=userone
+ userTwo.email="rahul@google.com"
+ console.log(userone)
+ console.log(userTwo);
+ // if we change in copy then that change will reflect in original because it is store in heap which share  the 
+ // reference.
 
 
